@@ -1,0 +1,70 @@
+.seven {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:yellow;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .one {
+    font-family:cursive;
+    font-size: 50px;
+    text-align: center;
+    color:red;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    background-color: #28a745;
+    border-radius: 3.5rem;
+  }
+  .two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .three {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:  Georgia;
+    font-size: 3rem;
+    color: blueviolet;
+    background: linear-gradient(to right, red,green);
+  }
+  .four {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 3rem;
+    font-family:Tahoma;
+    color: #28a745;
+    background:linear-gradient(to left, red,blue) ;
+  }
+  .five {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #28a745;
+    color:blue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .five:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .six {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
